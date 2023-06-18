@@ -1,25 +1,27 @@
 :root {
-    --main-color: #FF9002;
-    --primary-color: #1E1E1E;
+  --main-color: #ff9002;
+  --primary-color: #002952;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.ttf");
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-* {
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-size: 16px;
 }
 
 .c-main {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .c-primary {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .bg-main {
@@ -27,5 +29,41 @@ body {
 }
 
 .bg-primary {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.font-inter {
+  font-family: "Inter";
+}
+
+/* Optimize CSS Here */
+.w-80-percent {
+  width: 80%;
+}
+
+
+
+/* Responsive Device here */
+/* Large PC */
+@media only screen and (min-width: 1600px) {
+  
+}
+/* Medium PC */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  
+}
+
+/* PC */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 576px){
+
 }
