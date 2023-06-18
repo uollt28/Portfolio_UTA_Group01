@@ -1,0 +1,31 @@
+:root {
+    --main-color: #FF9002;
+    --primary-color: #1E1E1E;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    font-size: 16px;
+}
+
+.c-main {
+    color: var(--main-color);
+}
+
+.c-primary {
+    color: var(--primary-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
