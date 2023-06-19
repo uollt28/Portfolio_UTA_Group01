@@ -225,7 +225,7 @@ body {
 }
 
 .mmma1 {
-  width: 10000px;
+  width: 320px;
   margin-left: 20px;
   margin-bottom: -10px;
 }
@@ -406,8 +406,8 @@ body {
     width: 100%;
     color: #ffffff;
     font-size: 13px;
-    margin-left: 115px;
-    width: 70%;
+    margin-left: 95px;
+    width: 72%;
     text-align: center;
   }
 
@@ -425,7 +425,7 @@ body {
     margin-top: 40px;
     width: 35%;
     display: block;
-    margin-left: 200px;
+    margin-left: 160px;
   }
 
   .heading {
