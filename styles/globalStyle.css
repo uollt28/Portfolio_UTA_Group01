@@ -46,11 +46,11 @@ body {
 /* Responsive Device here */
 /* Large PC */
 @media only screen and (min-width: 1600px) {
-  
+
 }
 /* Medium PC */
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-  
+
 }
 
 /* PC */
@@ -67,3 +67,4 @@ body {
 @media only screen and (max-width: 576px){
 
 }
+
