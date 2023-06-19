@@ -41,3 +41,24 @@ body {
       width: 1920px;
   }
 }
+
+/* Medium PC */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+}
+
+/* PC */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 576px){
+
+}
+
