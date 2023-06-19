@@ -13,18 +13,73 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
     <link rel="stylesheet" href="./styles/globalStyle.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <title>Portfolio_UTA_Group01</title>
   </head>
   <body>
-    <!-- Header -->
-    <header class="">
-      <h2 class="">This is header</h2>
-    </header>
+  <!-- Header -->
+
+  <header class=" relative">
+        <nav class="">
+            <div class="navbar max-w-full flex items-center justify-between">
+                <div class="logo   ">
+                    <img class="absolute ml-0 t-0 l-0" src="images/Logo_UTA.png" alt="logo">
+                </div>
+
+                <ul class="link mr-50 f-s-18 flex mt-30">
+                  <li class="nav-item">
+                    <a class="nav-link btn">Giới thiệu nhóm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn">Đôi chút về dự án nhóm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn">Vận hành và thiết kế</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn">Quy trình phát triển</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn">Thành tựu đạt được</a>
+                </li>
+                </ul>
+
+                <div class="menu__btn z-999 mt-30 mr-20 f-s-40 cursor-pointer hidden">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+
+            <div class="nav__mobile z-999 hidden absolute ">
+                <li><a href="" class="btn__mobile">Giới thiệu nhóm</a></li>
+                <li><a href="" class="btn__mobile">Đôi chút về dự án nhóm</a></li>
+                <li><a href="" class="btn__mobile">Vận hành và thiết kế</a></li>
+                <li><a href="" class="btn__mobile">Quy trình phát triển</a></li>
+                <li><a href="" class="btn__mobile">Thành tựu đạt được</a></li>
+                <li><a href="" class="btn__mobile">Đăng ký ngay</a></li>
+            </div>
+        </nav>
+
+        <label class="overlay absolute fixed hidden h-full w-full w t-0 l-0"></label>
+
+        <div class="content__info text-center mt-200 ">
+          <h1 class="f-s-80">PORTFOLIO NHÓM 1</h1>
+          <p class="f-s-20">Ở đây nhận book chổ giữ xe ô tô!</p>
+          <button class="btn mt-15 mb-15">Đăng ký</button>
+        </div>
+
+        <div class="bg relative">
+          <img class="absolute w-full h-full ml-90 bg-cover bg-no-repeat" src="images/Header_Background.png" alt="">
+        </div>
+
+  </header>
+ 
 
     <!-- Main Content -->
     <main>
-      <h2 class="">This is section</h2>
+    
       <!-- Section 1 -->
       <section class=""></section>
 
@@ -37,9 +92,9 @@
 
     <!-- Footer -->
     <footer class="">
-      <h2>This is footer</h2>
+      
     </footer>
-
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./js/slider/jquery-3.6.3.min.js"></script>
     <script src="./js/slider/owl.carousel.min.js"></script>
